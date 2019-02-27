@@ -3,7 +3,7 @@
 Profanity in Lyrics – Top 100 Songs in U.S. Billboard
 https://drive.google.com/file/d/1K6XuKQmbCmlWC3OLUkMDzA7jsiU6hccE/view?usp=sharing 
 
-WARNING: There might be some profanity words in the content, please do not continue read if you are “allergic” to those uncomfortable wordings in the graph. 
+# WARNING: There might be some profanity words in the content, please do not continue read if you are “allergic” to those uncomfortable wordings in the graph.
 
 Overview
 I have been a fan of U.S. Billboard for long since middle school. I noticed that many songs in the U.S. Billboard are full of profanity words. Over the years, there seems to be more and more songs that curse somehow in the lyric. That annoyed me, so I turn my attention to the U.K. Billboard. There are still profanity words in the U.K. songs but less awful than those in the U.S. Therefore, I decided to gather data on U.S. Billboard and explore how the U.S. top 100 songs on the Billboard are evolving. 
@@ -19,14 +19,12 @@ Steps
 
 4.	Then I visualize what are the most popular words and the most popular profanity words in the lyrics with word cloud:
 
-![Screenshot](/img/img3.png) 
-![Screenshot](/img/img4.png)
-![Screenshot](/img/img5.png)
- 
+![Screenshot](/img/img3.png)![Screenshot](/img/img4.png)![Screenshot](/img/img5.png)
+
 5.	Then I took a look at how the average count of profanity words in lyrics are by year and found out the amount of profanity words are slightly higher than a decade ago in general with an upward trend.  
 6.	Next step is to find out whether there is a correlation between count of profanity word to the average peak weekly rank of a song. The answer is no. Therefore, I created a jointplot to find out whether I can classify songs by amount of profanity words in the lyrics. The answer is yes! There are three clear clusters.
-![Screenshot](/img/img6.png)
-![Screenshot](/img/img7.png)
+
+![Screenshot](/img/img6.png)![Screenshot](/img/img7.png)
         
 &. Then PCA is used to reduce the amount of variables for clustering and make possible for a 3-D graph to visualize the clustering. The Silhouette scores show three clusters is acceptable and here it is: A interactive 3-D graph showing song lustering by profanity words in song lyrics. 
    
